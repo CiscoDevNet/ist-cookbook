@@ -1,71 +1,78 @@
-// The vsphere ip address
+
 variable "vsphere_server" {
   type = string
+  description = "Hostname or IP address of your vCenter server" 
 }
 
-// The vsphere user
 variable "vsphere_user" {
   type = string
-  default = ""
+  description = "Username for vsphere"
 }
 
-// The vsphere password
 variable "vsphere_password" {
   type = string
+  description = "The password for vsphere"
 }
 
-// The datacenter the resources will be created in.
 variable "datacenter" {
   type = string
+  description = "The datacenter the resources will be created in"
 }
 
 
-// The resource pool the virtual machines will be placed in.
 variable "resource_pool" {
   type = string
+  description = "Name of the resource pool"
 }
 
-// The name of the datastore to use.
 variable "datastore_name" {
   type = string
+  description = "Name of the Datastore name"
 }
 
 // The name of the network to use.
 variable "network_name" {
   type = string
+  description = "Name of the network"
 }
 
 // The name of the template to use when cloning.
 variable "template_name" {
   type = string
+  description = "Name of the template"
 }
 
 
 // The virtual machine cpu
 variable "vm_cpu" {
-  type = string
+  type = number
+  description = "Number of vCPUs"
+  default = 2
 }
 
 variable "vm_memory" {
-  type = string
+  type = number
+  description = "Amount of memory in MB"
+  default = 2048
 }
 
 variable "vm_prefix" {
   type = string
+  description = "The name prefix of the virtual machines to create"
 }
 
 variable "vm_folder" {
   type = string
+  description = "Name of folder"
 }
 
 variable "vm_count" {
   type = number
+  description = "Number of VMs to provision"
+  default = 1
 }
 
-// The name prefix of the virtual machines to create.
 variable "vm_domain" {
   type = string
-}
-variable "root_password" {
-  type = string
+  description = "Domain Name for the virtual machine"
 }
