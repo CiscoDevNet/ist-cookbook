@@ -1,0 +1,26 @@
+tf_orgtoken                = "MY_TOKEN" 
+tf_organization_email   = "MY_EMAIL"
+tf_organization_name    = "MY_ORG"
+ist_agent_id            = "MY_TF_AGENT_ID"
+workspace_name          = "devnet-tf-uc-2"
+
+vars_list = {
+  vsphere_server = {
+        name = "vsphere_server"
+        val = "1.1.1.1"
+        sensitive = false
+        hcl       = false
+    }
+    vsphere_username = {
+        name = "vsphere_username"
+        val = "administrator@acme.local"
+        sensitive = false
+        hcl       = false
+    }
+    vsphere_password = {
+        name = "vsphere_password"
+        val = "password!"
+        sensitive = true
+        hcl       = false
+    }
+}
