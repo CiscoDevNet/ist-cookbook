@@ -42,8 +42,9 @@ Once the target is created, the agent can be added assist.
 1. Go to https://github.com/CiscoDevNet/ist-cookbook/tree/main/vm_provision
 2. Fork it into your own GitHub account
 
-### Datacenter Prep
+#### Datacenter Prep
 
+Create a template for a linux VM. This could be either CentOS or Ubuntu. Make sure you have VMware tools pre installed on the VM. We will use this template to a create a VM in the datacenter.
 
 
 
