@@ -50,7 +50,7 @@ Create a template for a linux VM. This could be either CentOS or Ubuntu. Make su
 
 ### Create Workspace in Terraform Cloud
 
-1. Create a new worspace and choose a version control provider (setup in the previous step) that hosts the Terraform configuration for this workspace. 
+1. Create a new workspace and choose a version control provider (setup in the previous step) that hosts the Terraform configuration for this workspace. 
 2. Go to the Variables section and add the following variables with the value specific to your environment (the values provided below are examples)
 
 | Key                |   Value          | Type         |
@@ -64,7 +64,7 @@ Create a template for a linux VM. This could be either CentOS or Ubuntu. Make su
 | resource_pool | IntersightPool ||
 | datastore_name | nfs-datastore-0 ||
 | network_name | vlan1238 ||
-| template_name | MO-CENTOS7"
+| template_name | MO-CENTOS7 ||
 | vm_prefix | momagic ||
 | vm_folder | momagic ||
 | vm_count | 2 ||
