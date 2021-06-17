@@ -4,7 +4,7 @@
 
 Cisco Intersight Service for HashiCorp Terraform (IST) addresses the challenge of securely connecting and configuring on-premises and hybrid environments to work with Terraform Cloud Business Tier. Leveraging Intersight Assist, users can integrate Terraform Cloud Business with Cisco Intersight, enabling secure communication between on-premises data centers and edge locations with the IaC platform. This means users can spend less time managing the end-to-end lifecycle of Terraform Cloud Agents, benefiting from native integration directly within Intersight, including upgrades and the ability to scale as demand grows.
 
-In this example, we cover a simple use case that the Intersight Platform and Terrraform Cloud Business Tier to deploy virtual machines on-premise. This use case will walk the user through the following steps.
+In this example, we cover a simple use case that the Intersight Platform and Terraform Cloud Business Tier to deploy virtual machines on-premise. This use case will walk the user through the following steps.
 
 1. Adding your Terraform Cloud for Business Tier Credentials
 2. Adding your Terraform Cloud Agent
