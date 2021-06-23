@@ -1,7 +1,0 @@
-
-tfc4b_provisioning/.terraform.lock.hcl
-tfc4b_provisioning/.terraform/providers/registry.terraform.io/hashicorp/tfe/0.25.2/darwin_amd64/terraform-provider-tfe_v0.25.2_x5
-tfc4b_provisioning/terraform.auto.tfvars
-tfc4b_provisioning/terraform.tfstate
-tfc4b_provisioning/terraform.tfstate.backup
-.DS_Store
