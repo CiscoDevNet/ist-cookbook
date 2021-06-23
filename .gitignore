@@ -5,9 +5,3 @@ tfc4b_provisioning/terraform.auto.tfvars
 tfc4b_provisioning/terraform.tfstate
 tfc4b_provisioning/terraform.tfstate.backup
 .DS_Store
-devops-dev/.terraform.lock.hcl
-devops-dev/.terraform/modules/modules.json
-devops-dev/.terraform/providers/registry.terraform.io/hashicorp/tfe/0.25.2/darwin_amd64/terraform-provider-tfe_v0.25.2_x5
-devops-dev/.terraform/providers/registry.terraform.io/hashicorp/vsphere/2.0.1/darwin_amd64/terraform-provider-vsphere_v2.0.1_x5
-devops-dev/.terraform/terraform.tfstate
-devops-dev/sample_vars.auto.tfvars
