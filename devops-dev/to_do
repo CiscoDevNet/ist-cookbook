@@ -1,0 +1,23 @@
+data "vsphere_datacenter" "dc" {
+  name = var.common_vm_specs["vc_datacenter"]
+}
+
+data "vsphere_datastore" "datastore" {
+  name          = var.common_vm_specs["vc_datastore"]
+  datacenter_id = data.vsphere_datacenter.dc.id
+}
+
+data "vsphere_compute_cluster" "compute_cluster" {
+  name          = var.common_vm_specs["vc_cluster"]
+  datacenter_id = data.vsphere_datacenter.dc.id
+}
+
+data "vsphere_network" "network" {
+  name          = var.common_vm_specs["vc_network"]
+  datacenter_id = data.vsphere_datacenter.dc.id
+}
+
+data "vsphere_virtual_machine" "template" {
+  name          = var.common_vm_specs["vm_template_path"]
+  datacenter_id = data.vsphere_datacenter.dc.id
+}
