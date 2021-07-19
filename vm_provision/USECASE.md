@@ -39,7 +39,7 @@ Once the target is created, the agent can be added assist.
 
 ### Create GitHub Repo
 
-1. Go to https://github.com/CiscoDevNet/ist-cookbook/tree/main/vm_provision
+1. Go to https://github.com/CiscoDevNet/ist-vm-provisioning
 2. Fork it into your own GitHub account
 
 ### Datacenter Prep
