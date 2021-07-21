@@ -10,6 +10,9 @@ There are several uses cases organized by folders. Each folder contains an indiv
 | Use Case           |   Description          |
 |--------------------|------------------------|
 | vm_provisioning    | In this example, we cover a simple use case that the Intersight Platform and Terraform Cloud Business Tier to deploy virtual machines on-premise. ||
+| ist-vmware-compute-cluster    | In this example, we cover a simple use case in the Intersight Platform and Terraform Cloud Business Tier to create a cluster in a VMware Datacenter, register a group of hosts and assign it to the new cluster previously created. ||
+
+
 
 ## Requirements
 
