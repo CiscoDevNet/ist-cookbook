@@ -28,3 +28,6 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+ist-vmware-compute-cluster/.DS_Store
+.DS_Store
+ist-vmware-compute-cluster/terraform.auto.tfvars
